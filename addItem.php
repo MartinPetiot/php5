@@ -1,15 +1,18 @@
 
 <html>
 <body>
-<form method="post" action="displayItem.php" enctype=multipart/form-data">
+<form method="post" action="displayItem.php" >
 
     <p> Choisissez votre article :
     </p>
-    <select name="article">
-        <option value="article1"> Mamamia</option>
-        <option value="article2"> Aïe Aïe</option>
-        <option value="article3"> Muy Bonita</option>
-    </select>
+    <p> Nom de l'article : </p>
+    <input type="text" name="Nom" />
+
+    <p>Prix de l'article : </p>
+    <input type="text" name="Prix" />
+
+    <p>La photo de mon article : </p>
+    <input type="text" name="Photo" />
 
     <input type="submit" value="Valider" />
 
